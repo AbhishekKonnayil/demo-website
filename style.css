@@ -164,13 +164,15 @@ p {
   box-shadow: -5px -5px 10px rgba(0, 0, 0, 0.2),
     5px 5px 10px rgba(255, 255, 255, 0.3);
 }
-.heading-experience {
+.heading-experience,
+.heading-EXPERTISE,
+.heading-education {
   font-family: Montserrat;
   text-align: center;
   font-size: 36px;
   font-weight: 700;
   color: rgb(63, 63, 70);
-  margin-top: 16px;
+  margin-top: 150px;
   margin-bottom: 72px;
 }
 .Head-pro-exp {
@@ -193,7 +195,8 @@ p {
   color: rgb(113, 70, 81);
 }
 .co-skills1,
-.co-skills2 {
+.co-skills2,
+.co-skills3 {
   display: flex;
   flex-direction: row;
   flex: 1fr 1fr;
@@ -217,7 +220,9 @@ h1 {
 .skills-row1,
 .company-row1,
 .skills-row2,
-.company-row2 {
+.company-row2,
+.skills-row3,
+.company-row3 {
   background-color: #e5e7eb;
   border: solid;
   border-width: 1px;
@@ -229,3 +234,80 @@ h1 {
   display: block;
   width: 600px;
 }
+.expertise-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  text-align: center;
+  column-gap: 8px;
+  row-gap: 8px;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: Montserrat;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.expertise-list:hover {
+}
+.ts,
+.Spec,
+.Lan,
+.data,
+.frame,
+.cloud,
+.tools {
+  background-color: #e5e7eb;
+  border: solid white;
+  border-width: 1px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2),
+    -5px -5px 10px rgba(255, 255, 255, 0.3);
+}
+.ts:hover,
+.Spec:hover,
+.Lan:hover,
+.data:hover,
+.frame:hover,
+.cloud:hover,
+.tools:hover {
+  background-color: white;
+  box-shadow: -5px -5px 10px rgba(0, 0, 0, 0.2),
+    5px 5px 10px rgba(255, 255, 255, 0.3);
+  color: rgb(113, 70, 81);
+}
+.education {
+  place-items: center;
+}
+.clg-mark {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #e5e7eb;
+  border: solid white;
+  border-width: 1px;
+  padding: 15px;
+  border-radius: 10px;
+  width: 700px;
+  box-shadow: 8px 8px 8px rgba(72, 79, 96, 0.4);
+  font-family: Montserrat;
+}
+.course {
+  font-size: 18px;
+  font-weight: 700;
+}
+.degree {
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+}
+.clg,
+.year {
+  font-size: 12px;
+  color: black;
+}
+.cgpa {
+  font-size: 48px;
+  font-weight: 700;
+}
+.mark{text-align: center;}
